@@ -10,3 +10,8 @@ def batch_badge_creator(array)
   end 
   return array2
 end 
+
+def assign_rooms(speakers_array)
+  array2 = []
+  array.each do |name|
+    message = "Hello, #{name}"
