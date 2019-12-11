@@ -11,14 +11,14 @@ def batch_badge_creator(array)
   return array2
 end 
 
-def assign_rooms(speakers_array)
-  array2 = []
-  counter = 1 
-  speakers_array.each do |name|
-    message = "Hello, #{name}! You'll be assigned to room #{counter}!"
-    array2 << message 
-    counter += 1 
-  end 
-  return array2
-end 
-  
+# def assign_rooms(speakers_array)
+#   array2 = []
+#   counter = 1 
+#   speakers_array.each do |name|
+#     message = "Hello, #{name}! You'll be assigned to room #{counter}!"
+#     array2 << message 
+#     counter += 1 
+#   end 
+#   return array2
+# end 
+
